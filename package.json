@@ -15,7 +15,7 @@
   "type": "module",
   "devDependencies": {
     "@types/cloudflare-turnstile": "^0.2.2",
-    "@types/node": "^26.0.1",
+    "@types/node": "^26.1.0",
     "eslint": "^10.6.0",
     "gts": "^7.0.0",
     "typescript": "^6.0.3"
@@ -32,8 +32,8 @@
   "dependencies": {
     "firebase": "^12.15.0"
   },
-  "resolutions": {
-    "brace-expansion": "^2.0.1"
+  "overrides": {
+    "tmp": "0.2.7"
   },
   "packageManager": "yarn@4.1.1"
 }
