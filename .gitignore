@@ -36,3 +36,5 @@ build
 !.yarn/releases
 !.yarn/plugins
 .pnp.*
+
+.vscode
