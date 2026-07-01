@@ -15,7 +15,7 @@
   "type": "module",
   "devDependencies": {
     "@types/cloudflare-turnstile": "^0.2.2",
-    "@types/node": "^22.7.5",
+    "@types/node": "^26.0.1",
     "eslint": "^10.6.0",
     "gts": "^7.0.0",
     "typescript": "^5.6.3"
@@ -30,7 +30,7 @@
     "posttest": "yarn run lint"
   },
   "dependencies": {
-    "firebase": "^10.7.2"
+    "firebase": "^12.15.0"
   },
   "resolutions": {
     "brace-expansion": "^2.0.1"
